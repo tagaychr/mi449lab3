@@ -3,5 +3,18 @@ layout: layout.liquid
 title: 11ty Boilerplate
 ---
 
-<h1>Yet Another 11ty <strong>Boilerplate</strong></h1>
-<img alt="pine" src="/images/pine.png" width="50" />
+
+
+<div class="blogpreview"> 
+    <a href="/blog1">
+        <img alt="pine" src="/images/logo.png" width="50">
+    </a>
+    {% blogTitle 'title1' 'Christina Tagay'%}
+</div>
+
+<div class="blogpreview"> 
+    <a href="/blog2">
+        <img alt="Your Alt Text" src="/images/logo.png" width="50">
+    </a>
+    {% blogTitle 'title2' 'Christina Tagay'%}
+</div>
