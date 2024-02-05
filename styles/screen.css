@@ -48,3 +48,46 @@ h1 strong {
 img.about {
     opacity: 0.5;
 }
+
+.content{
+    text-align:justify; 
+    width:50%;
+    margin:auto;
+}
+
+.blogpreview {
+    display: inline-block;
+    margin-right: 30px; /* Adjust the margin as needed for spacing */
+    width: 40%;
+  }
+
+
+.contentHome{ 
+    width:50%;
+    margin:auto;
+}
+
+a, a:visited {
+    /* Add your styling for visited links here */
+    color: inherit; /* Example: Keep the same color as the normal link */
+    text-decoration: none; /* Example: Remove underline for visited links */
+}
+
+
+.blogs {
+    display: flex;
+}
+
+.blogpreview {
+    flex: 1;
+    margin: 0 10px; /* Adjust margin as needed for spacing between the blog previews */
+    text-align: center; /* Center align content */
+}
+
+.blogpreview img {
+    width: 50%; /* Make sure the image takes the full width of the parent container */
+}
+
+.blogpreview p {
+    margin-top: 10px; /* Adjust margin as needed for spacing between the title and the text */
+}
